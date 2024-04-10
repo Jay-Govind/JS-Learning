@@ -32,3 +32,32 @@ const myFunction = function () {
 }
 
 // use typeOf() function to print the type of data types
+
+
+
+//+++++++++++++++++++++++++++++++++++++ Memory  +++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory - Stack (Primitive), Heap (Non-Primitive)
+
+//(Example of Stack Memory)
+
+let youtubeName = "Jay Govind Official";
+let anotherName = youtubeName;
+anotherName = "devwithgovind"
+
+console.log(youtubeName);   //Jay Govind Official
+console.log(anotherName);   //devwithgovind
+
+
+
+//(Example of Heap Memory)
+
+let userOne = {
+    name: "Jay Govind Kumar",
+    email: "govind@google.com",
+}
+let userTwo = userOne;
+userTwo.email = "devwithgovind@google.com";
+
+console.log(userOne.email);     //devwithgovind@google.com
+console.log(userTwo.email);     //devwithgovind@google.com
