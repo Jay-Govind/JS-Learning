@@ -14,10 +14,10 @@ let isLogged = false;
     bigint
     string      ==> ""
     boolean     ==> true / false
+    symbol      ==> unique
     null        ==> standalone value
     undefined   ==> not assigned
-    symbol      ==> unique
-
+    
 
     object
 */

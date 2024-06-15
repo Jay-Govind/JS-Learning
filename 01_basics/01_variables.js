@@ -1,8 +1,8 @@
 const accountId = 43743284;
 let accountName =  "Jay govind";
 var accountEmail = "govind@google.com";
-let accountState;
+let accountState;       // undefined
 
-/* prefer not to use var, use let  */
+/* prefer not to use var because of issue with block scope and functional scope, use let  */
 
 console.table([accountId, accountEmail, accountName, accountState]);
