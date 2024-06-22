@@ -30,5 +30,12 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 
 // console.log(myArr.splice(1,3))      // --> [ 2, 3, 4 ] 
 // console.log(myArr);                 // --> [ 1, 5 ]
-/*  slice method provide desired value from the original arrar without changing the original array 
+/*  slice method provide desired value from the original array without changing the original array 
       splice method provide desired value from the original array and change the original array */
+
+
+// myArr = [1, 2, 3, 4, 5]; declared in 3rd line
+
+// let newArr = myArr.join();
+// console.log(myArr);                // --> type is array
+// console.log(newArr);               // --> type is string

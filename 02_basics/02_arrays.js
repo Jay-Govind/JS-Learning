@@ -56,7 +56,22 @@ const dc_hero = ["Batman", "Superman", "Flash", "Green Lantern"];
 // --> return empty array
 // Note: if we pass an object it will return an empty array. So we need tell it to return an array on the basis of particular property
 
-let score1 = 100;
-let score2 = 200;
-let score3 = 300;
-console.log(Array.of(score1, score2, score3));  // --> [ 100, 200, 300 ]
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+// console.log(Array.of(score1, score2, score3));  // --> [ 100, 200, 300 ]
+
+
+
+let a = [1,2,3,4];
+let b = [5,6,7,8];
+let c = [9,10,11,12];
+
+// console.log(a.concat(b.concat(c)));
+// console.log(a.concat(b, c));
+/* Both are correct but avoid using the nested concat method because it is not performant */
+
+
+// console.log([...a, ...b, ...c]);
+// console.log({...a, ...b, ...c});
+/* The second methods returns the wrong output bcoz i am trying to spread arrays into an object */
