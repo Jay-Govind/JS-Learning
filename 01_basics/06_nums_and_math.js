@@ -3,15 +3,14 @@
 // const score = 100;
 // console.log(score);                         // --> 100
 
-
-// const balance = new Number(100);
+// const balance = new Number(123.5);
 // console.log(balance);                       // --> [Number: 100]
 // console.log(balance.toString());            // --> 100
 // console.log(balance.toString().length);     // --> 3
 // console.log(balance.toFixed(2));            // --> 100.00
 
 
-// const otherNum = 23.464565;
+// const otherNum = 23.454565;
 // console.log(otherNum.toPrecision(3));       // --> 23.5
 
 
@@ -32,10 +31,10 @@
 
 // console.log(Math.random());             // --> (0-1) '1 is excluded'
 // console.log(Math.random() * 10);        // --> (0-10) '10 is excluded
-// console.log(Math.random() * 10 + 1);    // --> (1-10)
-// console.log(Math.floor(Math.random() * 10 + 1));
+// console.log((Math.random() * 10) + 1);    // --> (1-10)
+// console.log(Math.floor(Math.random() * 10) + 1);
 
 
 const min = 10;
 const max = 20;
-console.log(Math.floor(Math.random() * (max - min + 1) + min ));
+console.log(Math.floor(Math.random() * (max - min + 1)) + min );
