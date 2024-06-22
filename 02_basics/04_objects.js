@@ -1,5 +1,5 @@
-// const tindeUser = new Object()
-const tinderUser = {};
+// const tindeUser = new Object()  // -->Singleton Object
+const tinderUser = {};             // --> not a singleton object
 
 tinderUser.id = "123abc";
 tinderUser.name = "Jay Govind";
@@ -17,7 +17,7 @@ const regularUser = {
       }
 }
 
-// console.log(regularUser.fullname.userfullName.firstName);
+// console.log(regularUser.fullname.userfullName.firstName);   // --> Jay
 
 
 
