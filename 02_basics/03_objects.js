@@ -1,5 +1,5 @@
 // singleton
-// Object.create
+// Object.create  // we can create object also with this syntax
 
 // object literals
 
@@ -17,7 +17,7 @@ const jsUser = {
 }
 
 // console.log(jsUser["email"]);
-// // console.log(jsUser.full name);
+// console.log(jsUser.full name);     // --> error (we can't access with dot)
 // console.log(jsUser["full name"]);
 // console.log(jsUser[mySym]);
 
@@ -25,23 +25,26 @@ const jsUser = {
 
 /* syntax for declare symbol is by using square brackets [] without using bracket it is considerd as string */
 
+
 // jsUser.email = "govind@microsoft.com";
 // console.log(jsUser["email"]);       // --> email: govind@microsoft.com
 
 // Object.freeze(jsUser);
 // jsUser.email = "govind@chatgpt.com";
 /* this line does not execute and dont show any error.
-      this is done onlu if we apply freeze method to our object*/
+      this is done only if we apply freeze method to our object*/
 
-jsUser.greeting = function () {
-      console.log("Hello ! It's me Coder")
-}
 
-// console.log(jsUser.greeting);
-// console.log(jsUser.greeting());
 
-jsUser.greeting2 = function () {
-      console.log(`Hello ! ${this["full name"]} It's me Coder`)
-}
+// jsUser.greeting = function () {
+//       console.log("Hello ! It's me Coder")
+// }
 
-console.log(jsUser.greeting2());
+// console.log(jsUser.greeting);       // --> [Function (anonymous)]
+// console.log(jsUser.greeting());     // --> Hello ! It's me Coder
+
+// jsUser.greeting2 = function () {
+//       console.log(`Hello ! ${this["full name"]} It's me Coder`)
+// }                     //  --> Hello ! Jay Govind Kumar It's me Coder
+
+// console.log(jsUser.greeting2());
