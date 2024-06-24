@@ -46,4 +46,4 @@ console.log(newDate.toLocaleDateString("default", {
   year: "numeric",
   month: "long",
   day: "numeric",
-}));                                                    // --> Saturday, June 22, 2024
+}));                          // --> Saturday, June 22, 2024

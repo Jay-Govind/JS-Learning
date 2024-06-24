@@ -17,5 +17,5 @@
 // console.log(undefined >= 0);    //false
 
 // Strict Comparison (===)
-// console.log("2" ===2);  //false
+// console.log("2" === 2);  //false
 // console.log(2 === 2);   //true

@@ -4,14 +4,14 @@
 // console.log(score);                         // --> 100
 
 // const balance = new Number(123.5);
-// console.log(balance);                       // --> [Number: 100]
-// console.log(balance.toString());            // --> 100
-// console.log(balance.toString().length);     // --> 3
-// console.log(balance.toFixed(2));            // --> 100.00
+// console.log(balance);                       // --> [Number: 123.5]
+// console.log(balance.toString());            // --> '123.5'
+// console.log(balance.toString().length);     // --> 4
+// console.log(balance.toFixed(2));            // --> 123.50
 
 
 // const otherNum = 23.454565;
-// console.log(otherNum.toPrecision(3));       // --> 23.5
+// console.log(otherNum.toPrecision(3));       // --> 124
 
 
 // const rupee = 1000000;
