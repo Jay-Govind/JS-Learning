@@ -42,6 +42,7 @@ function calculateCardPrice(...price) {    // --> rest operator (depend on place
 
 
 
+// --> object in function
 const user = {
       username: "Govind",
       price: 199
@@ -51,4 +52,15 @@ function handleObject(anyObj) {
       console.log(`Username is ${anyObj.username} and price is ${anyObj.price}`);
 }
 // handleObject(user);
-handleObject( { username: "Jay Govind", price: 299 } );
+// handleObject( { username: "Jay Govind", price: 299 } );
+
+
+// --> array in function
+const arr = [1, 2, 3, 4, 5];
+
+function getThirdElement(getArr){
+      return getArr[2];
+}
+
+console.log(getThirdElement(arr));
+console.log(getThirdElement([20, 45, 62, 85, 45]));
